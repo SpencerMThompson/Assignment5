@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <span id="name_error">&nbsp;</span>
+    <br>
+    <label for="city">City:</label>
+    <input type="text" id="city">
+    <span id="city_error">&nbsp;</span>
+    <br>
+    <label for="state">State:</label>
+    <select name="state" id="state">
+        <option value="NE">NE</option>
+        <option value="IA">IA</option>
+        <option value="MN">MN</option>
+        <option value="WI">WI</option>
+        <option value="MI">MI</option>
+        <option value="IL">IL</option>
+        <option value="IN">IN</option>
+        <option value="OH">OH</option>
+        <option value="PA">PA</option>
+        <option value="MD">MD</option>
+        <option value="NJ">NJ</option>
+    </select>
+    <span id="state_error">&nbsp;</span>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email">
+    <span id="email_error">&nbsp;</span>
+    <br>
+    <label>&nbsp;</label>
+    <input type="button" id="add" value="Add">
+    <span id="customer_error">&nbsp;</span>
+    <ol id="list">
+        <!-- <li>email</li>
+        <ul>
+          <li>name</li>
+          <li>city, state</li>
+        </ul> -->
+      </ol>  
+</body>
+</html>
